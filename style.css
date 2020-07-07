@@ -5,6 +5,10 @@
     padding: 10px 20px;
 }
 
+.container{
+    margin-bottom: 100px;
+}
+
 .custom-carousel p{
     color: gray;
 }
@@ -24,7 +28,31 @@
     background-image: linear-gradient(45deg, rgb(255, 102, 0), orange);
 }
 
+.custom-card p, .card-footer, .custom-card h4{
+    text-align: center;
+}
 
+.custom-card p{
+    color: gray;
+}
 
+.card-footer{
+    border: none;
+    background-color: white;
+}
 
+.see-all{
+    color: orange;
+}
+
+.category h3{
+    text-align: center;
+}
+
+.hori-row{
+    width: 8%;
+    background-image: linear-gradient(-45deg, rgb(255, 102, 0), orange);
+    height: 7px;
+    border-radius: 10px;
+}
 
